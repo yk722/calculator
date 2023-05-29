@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="screen">
+            <section class="display">0</section>
+            <section class="buttons">
+                <div class="button-row">
+                    <button class="op-button" onclick="clearCalc()">AC</button>
+                    <button class="op-button" onclick="updateCalc('\(')">&#40</button>
+                    <button class="op-button" onclick="updateCalc('\)')">&#41</button>
+                    <button class="op-button" onclick="updateCalc('/')">&#247</button>
+                </div>
+
+                <div class="button-row">
+                    <button class="button" onclick="updateCalc('7')">7</button>
+                    <button class="button" onclick="updateCalc('8')">8</button>
+                    <button class="button" onclick="updateCalc('9')">9</button>
+                    <button class="op-button" onclick="updateCalc('*')">&#215</button>
+                </div>
+
+                <div class="button-row">
+                    <button class="button" onclick="updateCalc('4')">4</button>
+                    <button class="button" onclick="updateCalc('5')">5</button>
+                    <button class="button" onclick="updateCalc('6')">6</button>
+                    <button class="op-button" onclick="updateCalc('-')">&#8722</button>
+                </div>
+
+                <div class="button-row">
+                    <button class="button" onclick="updateCalc('1')">1</button>
+                    <button class="button" onclick="updateCalc('2')">2</button>
+                    <button class="button" onclick="updateCalc('3')">3</button>
+                    <button class="op-button" onclick="updateCalc('+')">&#43</button>
+                </div>
+
+                <div class="button-row">
+                    <button class="button" onclick="updateCalc('0')">0</button>
+                    <button class="button" onclick="updateCalc('.')">&#46</button>
+                    <button class="button" onclick="percentageCalc()">&#37</button>
+                    <button class="calc-button" onclick="calc()">&#61</button>
+                </div>
+            </section>   
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>

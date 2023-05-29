@@ -1,0 +1,66 @@
+html {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    /*box-sizing: border-box;*/
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background: linear-gradient(300deg, #77ffe7, #ebf2f1);
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: inherit;
+}
+
+.screen {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    margin: 10px;
+}
+
+.display {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px;
+    margin: 10px;
+    height: 76px;
+    
+    height: max-content;
+    border-radius: 10px;
+    text-align: right;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+button {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 50%;
+    margin: 5px 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+
+}
+
+button:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+
+.op-button {
+    background-color: #dff0ed;
+}
+
+.calc-button {
+    background-color: #00c9a5;
+    color: white;
+}
+
