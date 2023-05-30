@@ -55,6 +55,12 @@ button:hover {
     transition: 0.3s;
 }
 
+button:active {
+    background-color: #9e9d9d;
+    color: white;
+    transition: 0.3s;
+}
+
 .op-button {
     background-color: #dff0ed;
 }
